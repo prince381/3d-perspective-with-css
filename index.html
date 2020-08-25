@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 minimum-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Perspective</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="content-wrapper">
+            <div class="content">
+                <div class="left-container">
+                    <div class="wrapper">
+                        <ul class="cards-container">
+                            <li class="card card1">
+                                <div class="card-content-wrapper">
+                                    <div class="headline">
+                                        <div class="text">
+                                            <h2 class="head-text">UI Designer</h2>
+                                            <p>Mr. James Wilson</p>
+                                        </div>
+                                        <div class="avatar-img-wrapper">
+                                            <img src="images/profile-1.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="subtext">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab facere nam iste consequuntur! Reiciendis non saepe, laborum</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="card">
+                                <div class="card-content-wrapper">
+                                    <div class="headline">
+                                        <div class="text">
+                                            <h2 class="head-text">UI Designer</h2>
+                                            <p>Mr. James Wilson</p>
+                                        </div>
+                                        <div class="avatar-img-wrapper">
+                                            <img src="images/profile-2.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="subtext">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab facere nam iste consequuntur! Reiciendis non saepe, laborum</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="card">
+                                <div class="card-content-wrapper">
+                                    <div class="headline">
+                                        <div class="text">
+                                            <h2 class="head-text">UI Designer</h2>
+                                            <p>Mr. James Wilson</p>
+                                        </div>
+                                        <div class="avatar-img-wrapper">
+                                            <img src="images/profile-3.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="subtext">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab facere nam iste consequuntur! Reiciendis non saepe, laborum</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="card card4">
+                                <div class="card-content-wrapper">
+                                    <div class="headline">
+                                        <div class="text">
+                                            <h2 class="head-text">UI Designer</h2>
+                                            <p>Mr. James Wilson</p>
+                                        </div>
+                                        <div class="avatar-img-wrapper">
+                                            <img src="images/avatar.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="subtext">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab facere nam iste consequuntur! Reiciendis non saepe, laborum</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="right-container">
+                    <div class="right-wrapper">
+                        <h4>CREATE A PROFILE</h4>
+                        <h1>Get Certificates</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem repudiandae nostrum eveniet consequatur non aperiam error labore fuga, aliquam accusamus dolore, fugiat distinctio temporibus? Nisi a debitis tempore dicta quas.</p>
+                        <button class="btn">Create Account</button>
+                    </div>
+                </div>
+            </div>
+            <div class="second-content">
+                <div class="content-body">
+                    <div class="body-text">
+                        <h4>TRUSTED BY TEAMS</h4>
+                        <h1>75,000 people</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem repudiandae nostrum eveniet consequatur non aperiam error labore fuga, aliquam accusamus dolore, fugiat distinctio temporibus? Nisi a debitis tempore dicta quas.</p>
+                    </div>
+                    <div class="user-card">
+                        <div class="user-wrapper">
+                            <div class="user-img">
+                                <img src="images/user-01.jpg" alt="">
+                            </div>
+                            <h2 class="name">Martin Garrix</h2>
+                            <h4 class="profession">Frontend Developer</h4>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem repudiandae nostrum eveniet consequatur non aperiam error labore fuga, aliquam accusamus dolore, fugiat distinctio temporibus? Nisi a debitis tempore dicta quas.</p>
+                        </div>
+                    </div>
+                    <div class="user-card">
+                        <div class="user-wrapper">
+                            <div class="user-img">
+                                <img src="images/user-02.jpg" alt="">
+                            </div>
+                            <h2 class="name">Frank Gibson</h2>
+                            <h4 class="profession">Software Engineer</h4>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem repudiandae nostrum eveniet consequatur non aperiam error labore fuga, aliquam accusamus dolore, fugiat distinctio temporibus? Nisi a debitis tempore dicta quas.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="jquery.js"></script>
+    <script src="tilt.jquery.js"></script>
+    <script>
+
+        $('.user-card').tilt({
+            glare: 1,
+            perspective: 200
+        });
+
+
+    </script>
+</body>
+</html>
